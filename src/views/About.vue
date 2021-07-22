@@ -41,6 +41,7 @@ export default {
       }).then(res=>{
         this.songs=res.data.result.songs
         console.log(res.data.result.songs);
+        console.log(132);
       })
     },
     song(id){
